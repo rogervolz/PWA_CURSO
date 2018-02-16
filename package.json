@@ -1,0 +1,29 @@
+{
+  "name": "pwa-complete-guide",
+  "version": "1.0.0",
+  "description": "Gerenciando obras cada vez melhor",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "keywords": [
+    "pwa",
+    "progressive",
+    "web",
+    "app",
+    "autoobras",
+    "obras",
+    "administração",
+    "gerenciamento"
+  ],
+  "author": "Maximilian Schwarzmüller",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  },
+  "dependencies": {
+    "firebase-functions": "^0.8.1",
+    "lint": "^1.1.2",
+    "web-push": "^3.2.5"
+  }
+}

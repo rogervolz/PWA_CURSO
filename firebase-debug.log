@@ -1,0 +1,101 @@
+[debug] [2018-02-16T02:51:52.544Z] ----------------------------------------------------------------------
+[debug] [2018-02-16T02:51:52.546Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ROGER\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-16T02:51:52.547Z] CLI Version:   3.17.4
+[debug] [2018-02-16T02:51:52.547Z] Platform:      win32
+[debug] [2018-02-16T02:51:52.547Z] Node Version:  v8.9.4
+[debug] [2018-02-16T02:51:52.547Z] Time:          Fri Feb 16 2018 00:51:52 GMT-0200 (Horário brasileiro de verão)
+[debug] [2018-02-16T02:51:52.548Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-16T02:51:52.557Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-16T02:51:52.557Z] > authorizing via signed-in user
+[debug] [2018-02-16T02:51:52.559Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/radiopeaoweb-3a66c  
+  
+ Fri Feb 16 2018 00:51:52 GMT-0200 (Horário brasileiro de verão)
+[debug] [2018-02-16T02:51:53.907Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-16T02:51:53.908Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/radiopeaoweb-3a66c/tokens  
+  
+ Fri Feb 16 2018 00:51:53 GMT-0200 (Horário brasileiro de verão)
+[debug] [2018-02-16T02:51:54.820Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\0-APPS\0-PWA\0-Autoobras'...
+[info] 
+[debug] [2018-02-16T02:51:54.829Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/radiopeaoweb-3a66c  
+  
+ Fri Feb 16 2018 00:51:54 GMT-0200 (Horário brasileiro de verão)
+[debug] [2018-02-16T02:51:55.763Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-16T02:51:55.764Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/879994022778/clients/_:getWebAppConfig  
+  
+ Fri Feb 16 2018 00:51:55 GMT-0200 (Horário brasileiro de verão)
+[debug] [2018-02-16T02:51:56.497Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-16T03:05:21.103Z] ----------------------------------------------------------------------
+[debug] [2018-02-16T03:05:21.105Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ROGER\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-16T03:05:21.106Z] CLI Version:   3.17.4
+[debug] [2018-02-16T03:05:21.106Z] Platform:      win32
+[debug] [2018-02-16T03:05:21.106Z] Node Version:  v8.9.4
+[debug] [2018-02-16T03:05:21.106Z] Time:          Fri Feb 16 2018 01:05:21 GMT-0200 (Horário brasileiro de verão)
+[debug] [2018-02-16T03:05:21.106Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-16T03:05:21.115Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-16T03:05:21.115Z] > authorizing via signed-in user
+[debug] [2018-02-16T03:05:21.117Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/radiopeaoweb-3a66c  
+  
+ Fri Feb 16 2018 01:05:21 GMT-0200 (Horário brasileiro de verão)
+[debug] [2018-02-16T03:05:21.158Z] Error: getaddrinfo ENOENT admin.firebase.com:443
+    at Object._errnoException (util.js:1022:11)
+    at errnoException (dns.js:55:15)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOENT admin.firebase.com:443
+[debug] [2018-02-16T03:06:08.821Z] ----------------------------------------------------------------------
+[debug] [2018-02-16T03:06:08.823Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ROGER\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-16T03:06:08.823Z] CLI Version:   3.17.4
+[debug] [2018-02-16T03:06:08.823Z] Platform:      win32
+[debug] [2018-02-16T03:06:08.823Z] Node Version:  v8.9.4
+[debug] [2018-02-16T03:06:08.824Z] Time:          Fri Feb 16 2018 01:06:08 GMT-0200 (Horário brasileiro de verão)
+[debug] [2018-02-16T03:06:08.824Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-16T03:06:08.834Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-16T03:06:08.834Z] > authorizing via signed-in user
+[debug] [2018-02-16T03:06:08.835Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/radiopeaoweb-3a66c  
+  
+ Fri Feb 16 2018 01:06:08 GMT-0200 (Horário brasileiro de verão)
+[debug] [2018-02-16T03:06:30.943Z] Error: getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
+[debug] [2018-02-16T03:27:12.636Z] ----------------------------------------------------------------------
+[debug] [2018-02-16T03:27:12.638Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ROGER\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-16T03:27:12.638Z] CLI Version:   3.17.4
+[debug] [2018-02-16T03:27:12.638Z] Platform:      win32
+[debug] [2018-02-16T03:27:12.638Z] Node Version:  v8.9.4
+[debug] [2018-02-16T03:27:12.639Z] Time:          Fri Feb 16 2018 01:27:12 GMT-0200 (Horário brasileiro de verão)
+[debug] [2018-02-16T03:27:12.639Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-16T03:27:12.647Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-16T03:27:12.648Z] > authorizing via signed-in user
+[debug] [2018-02-16T03:27:12.649Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/radiopeaoweb-3a66c  
+  
+ Fri Feb 16 2018 01:27:12 GMT-0200 (Horário brasileiro de verão)
+[debug] [2018-02-16T03:27:13.511Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-16T03:27:13.513Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/radiopeaoweb-3a66c/tokens  
+  
+ Fri Feb 16 2018 01:27:13 GMT-0200 (Horário brasileiro de verão)
+[debug] [2018-02-16T03:27:14.208Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\0-APPS\0-PWA\0-Autoobras'...
+[info] 
+[debug] [2018-02-16T03:27:14.215Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/radiopeaoweb-3a66c  
+  
+ Fri Feb 16 2018 01:27:14 GMT-0200 (Horário brasileiro de verão)
+[debug] [2018-02-16T03:27:15.248Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-16T03:27:15.249Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/879994022778/clients/_:getWebAppConfig  
+  
+ Fri Feb 16 2018 01:27:15 GMT-0200 (Horário brasileiro de verão)
+[debug] [2018-02-16T03:27:16.543Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
