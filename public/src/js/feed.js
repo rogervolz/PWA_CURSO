@@ -13,6 +13,7 @@ var captureButton = document.querySelector('#capture-btn');
 var imagePicker = document.querySelector('#image-picker');
 var imagePickerArea = document.querySelector('#pick-image');
 var picture ;
+var teste;
 
 function initializeMedia(){
   if(!('mediaDevices' in navigator) ){
